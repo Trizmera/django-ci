@@ -28,3 +28,8 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
+
+    - name: Python flake8 Lint
+      # You may pin to the exact commit or the version.
+      # uses: py-actions/flake8@84ec6726560b6d5bd68f2a5bed83d62b52bb50ba
+      uses: py-actions/flake8@v2.3.0
